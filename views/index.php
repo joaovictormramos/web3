@@ -1,0 +1,2 @@
+<h1>Sistemas de Notícias</h1>
+<p>Este sistema foi criado na disciplina de Construção de Páginas Web III pertencente ao Curso Superior de Tecnologia em Sistemas para Internet no ano de 2024 1o Semestre. IFMS. Campus Campo Grande</p>
