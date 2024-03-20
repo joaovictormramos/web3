@@ -5,15 +5,14 @@
     include_once "models/Noticia.php";
     include_once "models/Categoria.php";
 
-    define("APP", "http://localhost/web3/");
-    //echo "<h1>ola mundo PHP</h1>";
+    define("APP", "http://15.229.157.125/web3/");
     if (isset($_GET['url'])) {
         $url = $_GET['url'];
     } else {
         $url = 'index/index';
     }
     $url = explode('/', $url);
-    //var_dump($url);
+
     $nomeControlador = ucfirst($url[0]) . "Controller";
     $controller = new $nomeControlador();
     $acao = $url[1];
@@ -25,3 +24,4 @@
     }
 
 ?>
+
